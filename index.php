@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php
+ ini_set('display_errors','1');
+ include 'header.php'; ?>
     <div id="main-content">
         <div class="container">
             <div class="row">

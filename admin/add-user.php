@@ -15,7 +15,7 @@ if(isset($_POST['save'])){
     $user = mysqli_real_escape_string($conn, $_POST['user']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
 
-    $password = mysqli_real_escape_string($conn, md5($_POST['password']));
+    $password = mysqli_real_escape_string($conn, md5($_POST['password']));      //MD5 encyption for passwords used
     $role = mysqli_real_escape_string($conn, $_POST['role']);
 
     //checking is username already exists

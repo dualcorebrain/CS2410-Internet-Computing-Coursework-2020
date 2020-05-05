@@ -21,8 +21,9 @@
                         //TRY/CATCH showing connection error for some reason, TRY/CATCH blocks omitted temporarily.
                         //Pagination Similar to other paginations
                         $limit = 3;
-                        //$sql = "SELECT * FROM u_180023602_db.post post 
-                        $sql = "SELECT * FROM filodb.post post 
+                        
+                        //$sql = "SELECT * FROM filodb.post post 
+                        $sql = "SELECT * FROM u_180023602_db.post post 
                         LEFT JOIN category ON post.category = category.category_id 
                         ORDER BY post.post_id DESC LIMIT {$limit}";
 

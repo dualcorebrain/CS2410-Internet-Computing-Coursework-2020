@@ -1,12 +1,12 @@
 <?php 
     include "config.php";
     
-    session_start();
+    //session_start();
     //Secuirity using the URL injection of pages that are not yet available for unloggedin users
-     if(!isset($_SESSION["username"])){
-      header("Location: {$hostname}/index.php");
+    // if(!isset($_SESSION["username"])){
+     // header("Location: {$hostname}/index.php");
 
-    }
+    //}
 ?>
 
 <!DOCTYPE html>

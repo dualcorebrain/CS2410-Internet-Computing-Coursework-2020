@@ -13,7 +13,7 @@ $lname = $_POST['lname'];
 $user = $_POST['user'];
 $email =  $_POST['email'];
 
-//Email Validation not working
+//Email Validation not working completely
 if(isset($_GET['search'])){
 
 
